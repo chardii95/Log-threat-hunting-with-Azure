@@ -2,7 +2,7 @@
 🛡️ Windows Security Log Threat Hunting with Azure Log Analytics & KQL
 ======================================================================
 
-_A beginner-friendly SOC Analyst project using a Windows VM in Azure_
+_SOC Analyst project using a Windows VM in Azure_
 
 📌 Project Overview
 -------------------
