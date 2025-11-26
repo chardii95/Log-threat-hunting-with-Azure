@@ -24,11 +24,6 @@ This project demonstrates:
 *   Building detections from raw event data
     
 
-🧱 Architecture
----------------
-
-+-------------------+        AMA        +---------------------------+  |   Windows VM      | ----------------> |   Log Analytics Workspace |  |  (SecurityEvents) |                   |   (Stores event logs)     |  +-------------------+                   +---------------------------+                 |                 | Generate activity (RDP)                 v       Attacker Simulation (Failed Logins)   `
-
 🎯 Objectives
 -------------
 
@@ -166,24 +161,11 @@ SecurityEvent  | where EventID == 4720   `
 
 SecurityEvent  | where EventID == 4728   `
 
-📊 Optional SOC Dashboard (Azure Workbook)
-==========================================
-
-Created a dashboard visualizing:
-
-*   Failed login attempts
-    
-*   Successful logins
-    
-*   New user accounts
-    
-*   Privilege escalations
-    
 
 🧾 Incident Report Summary
 ==========================
 
-**Incident Title:** RDP Brute-Force Simulation**Date:** _(Add your date)_**Severity:** Medium
+**Incident Title:** RDP Brute-Force Simulation**Date:** _(26-11-2025)_**Severity:** Medium
 
 ### 🔍 Description
 
