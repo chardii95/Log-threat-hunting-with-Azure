@@ -1,0 +1,4 @@
+SecurityEvent
+| where EventID == 4624
+| project TimeGenerated, Account, LogonType, IPAddress=IpAddress
+| order by TimeGenerated desc
