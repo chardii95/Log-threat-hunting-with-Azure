@@ -1,0 +1,1 @@
+# Log-threat-hunting-with-Azure
